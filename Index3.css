@@ -284,7 +284,9 @@ ABOUT SECTION
 .colum-container{
     width: fit-content;
     margin: auto auto 500px auto;
-    display: inline-flex;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 }
 .wraper {
     margin: 0 80px 0 80px;
@@ -389,9 +391,7 @@ ABOUT SECTION
         flex-direction: column;
         width: fit-content;
     }
-    .colum-container{
-        display: grid;
-    }
+   
 }
 /* SECTION DESCTIPTION */
 .description{
